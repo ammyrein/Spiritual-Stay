@@ -16,7 +16,7 @@ const VisitorForm: React.FC = () => {
     e.preventDefault();
     
     // Replace this with the actual WhatsApp number (e.g., 919876543210 for India)
-    const whatsappNumber = "1234567890"; 
+    const whatsappNumber = "917905592517"; 
     
     const text = `Hari Om! I would like to inquire about a stay at Ananda Stay.%0A%0A*Name:* ${formData.name}%0A*Dates:* ${formData.dates}%0A*Guests:* ${formData.guests}%0A*Special Requests:* ${formData.message || 'None'}`;
     
